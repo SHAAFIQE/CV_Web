@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Web</title>
+    <!-- add opencv -->
+    <script async src="../../Resources/opencv.js" onload="openCvReady()"></script>
+    <link rel="stylesheet" href="style_main.css">
+    <!-- adding icons from fonts.google.com/icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Main Page -->
+    <div class="main-page">
+        <div class="side-line"></div>
+
+        <div class="side-bar">
+            <span class="circle"><i class="material-icons" style="font-size: 25px; color: white;">settings</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 25px; color: white;">info</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 25px; color: white;">visibility</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 25px; color: white;">auto_fix_normal</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 25px; color: white;">videocam</i></span>
+        </div>
+
+        <div class="right-pannel">
+            <div class="header">
+                <div class="empty-side"></div>
+                <h1 class="title">CV Web</h1>
+                <div class="logo-container"><img src="../../Resources/Template/shaa_logo.png" alt="Shaaf_logo" class="logo"></div>
+            </div>
+            <div class="tablet-container">
+                <!-- <img id="tablet-image" src="../../Resources/Template/tablet.png" alt="" width="900" height="480"> -->
+                <canvas id="main-canvas"  width="900" height="480">
+                    <img id="img-main" src="../../Resources/Template/car.jpeg" alt="" width="750" height="533">
+                </canvas>
+            </div>
+
+            
+        </div>
+
+            
+        
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.main-page{
+    
+    height: 100vh;
+    display: flex;
+}
+
+.side-line{
+    background-color: #3AAFA9;
+    height: 100%;   
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.side-bar {
+    background-color: rgb(247, 247, 247);
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    box-shadow: 1px 1px 10px rgb(185, 185, 185);
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-pannel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: #3AAFA9;
+    width: 100%;
+    height: 75px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(185, 185, 185);
+}
+
+.logo {
+    height: 60px;   
+    padding-top: 6px;
+    padding-right: 20px;
+   
+}
+
+.empty-side {
+    padding-left: 20px;
+}
+
+.title {
+    
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.tablet-container {
+    
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+#tablet-image {
+    position: absolute;
+   
+}
+
+#main-canvas {
+    position: absolute;
+    /* background-color: blueviolet; */
+    z-index: -1;
+  
+}
